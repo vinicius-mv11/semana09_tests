@@ -24,9 +24,9 @@ class turmaTest(unittest.TestCase):
         self.assertEqual(10, self.turmaObject.maiorNota.nota,
                          'Erro ao encontrar maior nota')
 
-    # def testMenor(self):
-    #     self.assertEqual(6, self.turmaObject.menorNota.nota,
-    #                      'Erro ao encontrar menor nota')
+    def testMenor(self):
+        self.assertEqual(6, self.turmaObject.menorNota.nota,
+                         'Erro ao encontrar menor nota')
 
     def testIntervalo(self):
         print('Testar se o intervalo de notas está correto.')
